@@ -1,0 +1,47 @@
+$ dnf info android-tools
+Available Packages
+Name         : android-tools
+Epoch        : 1
+Version      : 33.0.3p1
+Release      : 1.fc36
+Architecture : x86_64
+Size         : 1.8 M
+Source       : android-tools-33.0.3p1-1.fc36.src.rpm
+Repository   : updates
+Summary      : Android platform tools(adb, fastboot)
+URL          : http://developer.android.com/guide/developing/tools/
+License      : ASL 2.0 and (ASL 2.0 and BSD)
+Description  :
+             : The Android Debug Bridge (ADB) is used to:
+             :
+             : - keep track of all Android devices and emulators
+             :   instances connected to or running on a given host
+             :   developer machine
+             :
+             : - implement various control commands (e.g. "adb shell",
+             :   "adb pull", etc.) for the benefit of clients
+             :   (command-line users, or helper programs like DDMS).
+             :   These commands are what is called a 'service' in ADB.
+             :
+             : Fastboot is used to manipulate the flash partitions of
+             : the Android phone. It can also boot the phone using a
+             : kernel image or root filesystem image which reside on the
+             : host machine rather than in the phone flash. In order to
+             : use it, it is important to understand the flash partition
+             : layout for the phone. The fastboot program works in
+             : conjunction with firmware on the phone to read and write
+             : the flash partitions. It needs the same USB device setup
+             : between the host and the target phone as adb.
+
+Command-Line Tools:
+    apkanalyzer
+    avdmanager
+    sdkmanager
+Build Tools: should be invoked by the build tools
+Platform Tools: you can only download Platform Tools, like android-tools above
+    adb:      bridge of an emulator instance or Android device
+    fastboot: flash a device
+Emulator
+    emulator: QEMU-based device emulation, actual Android runtime environment. Included with Android Studio.
+    mksdcard: create a disk image used with emulator
+Jetifier: Library migration (support-library -> AndroidX)
