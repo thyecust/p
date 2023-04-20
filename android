@@ -45,3 +45,6 @@ Emulator
     emulator: QEMU-based device emulation, actual Android runtime environment. Included with Android Studio.
     mksdcard: create a disk image used with emulator
 Jetifier: Library migration (support-library -> AndroidX)
+
+
+$ sdkmanager --list --verbose
