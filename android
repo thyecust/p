@@ -425,3 +425,7 @@ Available Updates:
   emulator                                    | 30.7.5    | 32.1.12
   platform-tools                              | 31.0.2    | 34.0.1
   system-images;android-30;google_apis;x86_64 | 10        | 11
+
+
+https://developer.android.com/topic/architecture
+https://developer.android.com/jetpack/androidx/explorer
