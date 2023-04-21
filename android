@@ -33,6 +33,8 @@ Description  :
              : the flash partitions. It needs the same USB device setup
              : between the host and the target phone as adb.
 
+-----------------------------------------------
+
 Command-Line Tools:
     apkanalyzer
     avdmanager
