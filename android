@@ -46,6 +46,7 @@ Emulator
     mksdcard: create a disk image used with emulator
 Jetifier: Library migration (support-library -> AndroidX)
 
+-----------------------------------------------
 
 $ podman run -it --rm --device /dev/kvm androidsdk/android-30:latest bash
 ✔ docker.io/androidsdk/android-30:latest
@@ -426,12 +427,50 @@ Available Updates:
   platform-tools                              | 31.0.2    | 34.0.1
   system-images;android-30;google_apis;x86_64 | 10        | 11
 
+-----------------------------------------------
 
 https://developer.android.com/topic/architecture
 https://developer.android.com/jetpack/androidx/explorer
 
 https://developer.android.com/build/building-cmdline
 
+-----------------------------------------------
+
+https://github.com/android/architecture-samples
+
+https://github.com/android/architecture-samples/wiki/To-do-app-specification
+
+@Composable
+fun TasksScreen() {
+    TasksViewModel
+}
+
+@Composable
+fun StatisticsScreen() {
+    StatisticsViewModel
+}
+
+@Composable
+fun AddEditTaskScreen() {
+    AddEditTaskViewModel
+}
+
+@Composable TaskDetailScreen() {
+    TaskDetailViewModel
+}
+
+TodoNavGraph {
+    TodoDestinations.TASKS_ROUTE         -> AppModelDrawer(TasksScreen())
+    TodoDestinations.STATISTIC_ROUTE     -> AppModelDrawer(StatisticsScreen())
+    TodoDestinations.ADD_EDIT_TASK_ROUTE -> AddEditTaskScreen()
+    TodoDestinations.TASK_DETAIL_ROUTE   -> TaskDetailScreen()
+}
+
+TodoActivity {
+    onCreate() -> TodoNavGraph
+}
+
+------------------------------------------------
 
 UI https://developer.android.google.cn/guide/topics/ui?hl=zh-cn
 
