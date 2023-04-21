@@ -431,3 +431,24 @@ https://developer.android.com/topic/architecture
 https://developer.android.com/jetpack/androidx/explorer
 
 https://developer.android.com/build/building-cmdline
+
+
+UI https://developer.android.google.cn/guide/topics/ui?hl=zh-cn
+
+布局                                https://developer.android.google.cn/guide/topics/ui/declaring-layout?hl=zh-cn
+通知                                https://developer.android.google.cn/guide/topics/ui/notifiers/notifications?hl=zh-cn
+添加应用栏                          https://developer.android.google.cn/training/appbar?hl=zh-cn
+控制系统界面可见性                   https://developer.android.google.cn/training/system-ui?hl=zh-cn
+设计有效导航                         https://developer.android.google.cn/guide/navigation?hl=zh-cn
+实现有效导航                         https://developer.android.google.cn/guide/navigation?hl=zh-cn
+使用 ViewPager 在 Fragment 之间滑动  https://developer.android.google.cn/training/animation/screen-slide?hl=zh-cn
+支持滑动刷新                         https://developer.android.google.cn/training/swipe?hl=zh-cn
+消息框概览                           https://developer.android.google.cn/guide/topics/ui/notifiers/toasts?hl=zh-cn
+弹出消息概览                         https://developer.android.google.cn/training/snackbar?hl=zh-cn
+对话框                              https://developer.android.google.cn/guide/topics/ui/dialogs?hl=zh-cn
+菜单                                https://developer.android.google.cn/guide/topics/ui/menus?hl=zh-cn
+搜索概览                            https://developer.android.google.cn/guide/topics/search?hl=zh-cn
+复制和粘贴                          https://developer.android.google.cn/guide/topics/text/copy-paste?hl=zh-cn
+拖放                                https://developer.android.google.cn/guide/topics/ui/drag-drop?hl=zh-cn
+创建向后兼容的界面                   https://developer.android.google.cn/training/backward-compatible-ui?hl=zh-cn
+控制外部设备                         https://developer.android.google.cn/guide/topics/ui/device-control?hl=zh-cn
