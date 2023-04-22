@@ -13,6 +13,8 @@ $ man test
 
 注意，一个平凡的程序返回值是 0，在 test 程序中，返回值 0 意味着 Expression 为真，返回值 1 意味着 Expression 为假，另外返回值 2 意味着程序运行出错。
 
+这种返回值带有特殊含义的程序在 coreutils 中还有一些，见 https://www.gnu.org/software/coreutils/manual/html_node/Exit-status.html
+
 原文中也有几个 Note
 
 NOTE: Binary -a and -o are inherently ambiguous.  Use 'test EXPR1 && test EXPR2' or 'test EXPR1 || test EXPR2' instead.
