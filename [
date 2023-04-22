@@ -1,0 +1,95 @@
+你可知 [ 不是我真姓
+
+$ /usr/bin/[ --version
+[ (GNU coreutils) 8.30
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Written by Kevin Braunsdorf and Matthew Bradburn.
+
+$ man test
+
+注意，一个平凡的程序返回值是 0，在 test 程序中，返回值 0 意味着 Expression 为真，返回值 1 意味着 Expression 为假，另外返回值 2 意味着程序运行出错。
+
+原文中也有几个 Note
+
+NOTE: Binary -a and -o are inherently ambiguous.  Use 'test EXPR1 && test EXPR2' or 'test EXPR1 || test EXPR2' instead.
+
+NOTE:  [  honors  the --help and --version options, but test does not.  test treats each of those as it treats any other nonempty STRING.
+
+NOTE: your shell may have its own version of test and/or [, which usually  supersedes  the  version  described here.  Please refer to your shell's documentation for details about the options it supports.
+
+/usr/bin/[ 的源代码文件是 https://github.com/coreutils/coreutils/blob/v8.30/src/lbracket.c，只有两行
+
+#define LBRACKET 1
+#include "test.c"
+
+而 test.c 则有 800 多行。
+
+引用了九个文件，如
+
+#include <config.h> 据说是 autoconf 引入的
+#include <stdio.h>
+#include <sys/types.h> 类型
+
+system.h 整个 coreutils 的头文件，也引入了 <unistd.h><limits.h> 等
+lib/strnumcmp.h
+gnulib/quote.h 字符串格式处理
+gnulib/verror.h 错误处理
+gnulib/stat-time.h 时间戳处理
+<stdarg.h> 程序参数处理
+
+在 system.h 中有一个 #define _(msgid) gettext (msgid) 在 test.c 中经常用到。
+
+在 strnumcmp.h 中定义了比较两个数字大小的函数 strintcmp(char const *, char const *)，用来支持带有 -gt -le 等的 Expression。
+
+比较漂亮的函数是
+
+static bool
+unary_operator (void)
+{
+  struct stat stat_buf;
+
+  switch (argv[pos][1])
+    {
+    default:
+      return false;
+
+      /* All of the following unary operators use unary_advance (), which
+         checks to make sure that there is an argument, and then advances
+         pos right past it.  This means that pos - 1 is the location of the
+         argument. */
+
+    case 'a':			/* file exists in the file system? */
+    case 'e':
+      unary_advance ();
+      return stat (argv[pos - 1], &stat_buf) == 0;
+
+    case 'r':			/* file is readable? */
+      unary_advance ();
+      return euidaccess (argv[pos - 1], R_OK) == 0;
+
+    case 'w':			/* File is writable? */
+      unary_advance ();
+      return euidaccess (argv[pos - 1], W_OK) == 0;
+
+    case 'x':			/* File is executable? */
+      unary_advance ();
+      return euidaccess (argv[pos - 1], X_OK) == 0;
+
+    case 'O':			/* File is owned by you? */
+      {
+        unary_advance ();
+        if (stat (argv[pos - 1], &stat_buf) != 0)
+          return false;
+        errno = 0;
+        uid_t euid = geteuid ();
+        uid_t NO_UID = -1;
+        return ! (euid == NO_UID && errno) && euid == stat_buf.st_uid;
+      }
+    ...
+    }
+    ...
+}
