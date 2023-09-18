@@ -1,0 +1,84 @@
+Theoretical skills
+https://www.ipho-new.org/statutes-syllabus/
+
+General
+The ability to make appropriate approximations, while modelling real life problems. Recognition of and ability to exploit symmetry in problems.
+
+
+Mechanics
+
+Kinematics
+Velocity and acceleration of a point particle as the deriva­tives of its displacement vector. Linear speed; centripetal and tangential acceleration. Motion of a point particle with a constant acceleration. Addition of velocities and angular velocities; addition of accelerations without the Coriolis term; recognition of the cases when the Coriolis acceleration is zero. Motion of a rigid body as a rota­tion around an instantaneous center of rotation; veloci­ties and accelerations of the material points of rigid ro­tating bodies.
+
+Statics
+Finding the center of mass of a system via summation or via integration. Equilibrium conditions: force balance (vectorially or in terms of projections), and torque bal­ance (only for one-and two-dimensional geometry). Nor­mal force, tension force, static and kinetic friction force; Hooke’s law, stress, strain, and Young modulus. Stable and unstable equilibria.
+
+Dynamics
+Newton’s second law (in vector form and via projections (components)); kinetic energy for translational and rota­tional motions. Potential energy for simple force fields (also as a line integral of the force field). Momentum, angular momentum, energy and their conservation laws. Mechanical work and power; dissipation due to friction. Inertial and non-inertial frames of reference: inertial force, centrifugal force, potential energy in a rotating frame. Moment of inertia for simple bodies (ring, disk, sphere, hollow sphere, rod), parallel axis theorem; finding a moment of inertia via integration.
+
+Celestial mechanics
+Law of gravity, gravitational potential, Kepler’s laws (no derivation needed for first and third law). Energy of a point mass on an elliptical orbit.
+
+Hydrodynamics
+Pressure, buoyancy, continuity law. the Bernoulli equa­tion. Surface tension and the associ­ated energy, capillary pressure.
+
+
+Electromagnetic fields
+
+Basic concepts
+Concepts of charge and current; charge conservation and Kirchhoff’s current law. Coulomb force; electrostatic field as a potential field; Kirchhoff’s voltage law. Mag­netic B-field; Lorentz force; Ampère’s force; Biot-Savart law and B-field on the axis of a circular current loop and for simple symmetric systems like straight wire, circular loop and long solenoid.
+
+Integral forms of Maxwell’s equations
+Gauss’law (for E-and B-fields); Ampère’s law; Faraday’s law; using these laws for the calculation of fields when the integrand is almost piece-wise constant. Boundary conditions for the electric field (or electrostatic potential) at the surface of conductors and at infinity; concept of grounded conductors. Superposition principle for electric and magnetic fields;uniqueness of solution to well-posed problems; method of image charges.
+
+Interaction of matter with electric and magnetic fields
+Resistivity and conductivity; differential form of Ohm’s law. Dielectric and magnetic permeability; relative per­mittivity and permeability of electric and magnetic ma­terials; energy density of electric and magnetic fields; fer­romagnetic materials; hysteresis and dissipation; eddy currents; Lenz’s law. Charges in magnetic field: helicoidal motion, cyclotron frequency, drift in crossed E-and B-fields. Energy of a magnetic dipole in a magnetic field; dipole moment of a current loop.
+
+Circuits
+Linear resistors and Ohm’s law; Joule’s law; work done by an electromotive force; ideal and non-ideal batter­ies, constant current sources, ammeters, voltmeters and ohmmeters. Nonlinear elements of given V -I characteristic. Capacitors and capacitance(also for a single electrode with respect to infinity); self-induction and inductance; energy of capacitors and inductors; mutual inductance; time con­stants for RL and RC circuits. AC circuits: complex amplitude; impedance of resistors, inductors, capacitors, and combination circuits; phasor diagrams; current and voltage resonance; active power.
+
+
+Oscillations and waves
+
+Single oscillator
+Harmonic oscillations: equation of motion, frequency, angular frequency and period. Physical pendulum and its reduced length. Behavior near unstable equilib­ria. Exponential decay of damped oscillations; resonance of sinusoidally forced oscillators: amplitude and phase shift of steady state oscillations. Free oscillations of LC-circuits; mechanic-electrical analogy; positive feedback as a source of instability; generation of sine waves by feed back in a LC-resonator.
+
+Waves
+Propagation of harmonic waves: phase as a linear func­tion of space and time; wave length, wave vector, phase and group velocities; exponential decay for waves propa­gating in dissipative media; transverse and longitudinal waves; the classical Doppler effect. Waves in inhomo­geneous media: Fermat’s principle, Snell’s law. Sound waves: speed as a function of pressure (Young’s or bulk modulus) and density, Mach cone. Energy carried by waves: proportionality to the square of the amplitude, continuity of the energy flux.
+
+Interference and diffraction
+Superposition of waves: coherence, beats, standing waves, Huygens’ principle, interfer­ence due to thin films (conditions for intensity minima and maxima only). Diffraction from one and two slits, diffraction grating, Bragg reflection.
+
+Interaction of electromagnetic waves with mat­ter
+Dependence of electric permittivity on frequency (qual­itatively); refractive index; dispersion and dissipation of electromagnetic waves in transparent and opaque ma­terials. Linear polarization; Brewster angle; polarizers; Malus’ law.
+
+Geometrical optics and photometry
+Approximation of geometrical optics: rays and optical images; a partial shadow and full shadow. Thin lens ap­proximation; construction of images created by ideal thin lenses; thin lens equation Lu­minous flux and its continuity; illuminance; luminous intensity.
+
+Optical devices
+Telescopes and microscopes: magnification and resolv­ing power; diffraction grating and its resolving power; interferometers.
+
+
+Relativity
+Principle of relativity and Lorentz transformations for the time and spatial coordinate, and for the energy and momentum; mass-energy equivalence; invariance of the space time interval and of the rest mass. Addition of par­allel velocities; time dilation; length contraction; relativ­ity of simultaneity; energy and momentum of photons and relativistic Doppler effect; relativistic equation of motion; conservation of energy and momentum for elas­tic and non-elastic interaction of particles.
+
+
+Quantum Physics
+
+Probability waves
+Particles as waves: relationship between the frequency and energy, and between the wave vector and momen­tum. Energy levels of hydrogen-like atoms (circular orbits only) and of parabolic potentials; quantization of angular momentum. Uncertainty principle for the con­jugate pairs of time and energy, and of coordinate and momentum(as a theorem, and as a tool for estimates).
+
+Structure of matter
+Emission and absorption spectra for hydrogen-like atoms (for other atoms —qualitatively), and for molecules due to molecular oscillations; spectral width and lifetime of excited states. Pauli exclusion principle for Fermi parti­cles. Particles (knowledge of charge and spin): electrons, electron neutrinos, protons, neutrons, photons; Comp­ton scattering. Protons and neutrons as compound par­ticles. Atomic nuclei, energy levels of nuclei (qualita­tively); alpha-, beta-and gamma-decays; fission, fusion and neutron capture; mass defect; half-life and exponen­tial decay. Photoelectric effect.
+
+
+Thermodynamics and statistical physics
+
+Classical thermodynamics
+Concepts of thermal equilibrium and reversible pro­cesses; internal energy, work and heat; Kelvin’s tem­perature scale; entropy; open, closed, isolated systems; first and second laws of thermodynamics. Kinetic the­ory of ideal gases: Avogadro number, Boltzmann factor and gas constant; translational motion of molecules and pressure; ideal gas law; translational, rotational and os­cillatory degrees of freedom; equipartition theorem; in­ternal energy of ideal gases; root-mean-square speed of molecules. Isother­mal, isobaric, isochoric, and adiabatic processes; specific heat for isobaric and isochoric processes; forward and reverse Carnot cycle on ideal gas and its efficiency; ef­ficiency of non-ideal heat engines.
+
+Heat transfer and phase transitions
+Phase transitions (boiling, evaporation, melting, subli­mation) and latent heat; saturated vapor pressure, rel­ative humidity; boiling; Dalton’s law; concept of heat conductiv­ity; continuity of heat flux.
+
+Statistical physics
+Planck’s law (explained qualitatively, does not need to be remembered), Wien’s displacement law;the Stefan-Boltzmann law.
