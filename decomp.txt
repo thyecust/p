@@ -1,0 +1,83 @@
+decomp.txt
+
+SICP
+https://web.mit.edu/6.001/6.037/sicp.pdf
+
+"our focus in this book is on large-scale program design“
+
+"expert programmers control the complexity of their designs with the same general
+techniques used by designers of all complex systems. They combine primitive elements to
+form compound objects, they abstract compound objects to form high-level building blocks,
+and they preserve modularity by adopting appropriate large-scale views of system structure."
+
+"the technology for coping with large-scale computer systems merges with the technology
+for building new computer languages, and computer science itself becomes no more (and
+no less) than the discipline of constructing appropriate descriptive languages."
+
+"another advantage of Lisp is that it supports (but does not enforce) more of the large-
+scale strategies for modular decomposition of programs than any other language we know."
+
+"the entire sqrt program can be viewed as a cluster of procedures that mirrors
+the decomposition of the program into subprograms."
+
+
+IOI Syllabus
+https://algo.sk/ioi-syllabus/ioi-syllabus-2023-draft.pdf
+
+"PF1. Fundamental programming constructs(for abstract machines)
+  Basic syntax and semantics of a high-level language
+  Variables, types, expressions, and assignment
+  Simple I/O
+  Conditional and iterative control structures
+  Functions and parameter passing
+  Structured decomposition"
+
+
+Decomposition of trees
+https://courses.csail.mit.edu/6.851/spring10/scribe/lec13.pdf
+
+"several ways to decomposing trees:
+  Prefered paths: Rearrages a balanced tree to have a less balanced but nicer structure.
+  Heavy-light: Decomposes any tree into paths so that every leaf-to-root path hits only log n 'heavy paths'.
+  Separator decomposition: Rearranges any tree into a balanced tree by recursively splitting it into subtrees of roughly equal size.
+  ART/leaf-trimming decomposition: Split the tree into 'bottom' sub-trees having <= log n leaves and a 'top' sub tree consisting of the full tree with the bottom trees removed"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
