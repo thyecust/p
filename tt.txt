@@ -1,0 +1,74 @@
+tt.txt
+
+https://en.wikipedia.org/wiki/Type_theory#Differences_from_set_theory
+
+Set theory usually encodes number as sets, 1 is {Φ}. Type theory can encode
+numbers as functions (1 is f x = f x) or inductive types.
+
+Type theory has a built-in notion of computation, not requiring equality.
+Terms 1+1 and 2 are different, but compute the same value.
+
+In type theory, terms belong to only one type.
+subset - predicate function or dependently-typed product type
+union  - sum type
+
+Type theory does not have the law of excluded middle.
+
+Type thoery only have rules (no axioms).
+
+
+https://en.wikipedia.org/wiki/Setoid
+
+Setoids may be used when a difference between identity and equivalence
+must be maintained.
+
+
+https://www.cs.cmu.edu/~fp/courses/15317-s23/lectures/01-whatis.pdf
+
+R = {x | x is not in x} has a paradox. Russell's answer was to introduce
+types so that the set R cannot be formed because set cannot be a member
+of itself. Later evolved by Church into simple theory of types (1940).
+
+https://www.cs.cmu.edu/~fp/courses/15317-s23/lectures/04-pap.pdf
+
+From the very outset of the development of constructive logic and
+mathematics, a central idea has been that proofs ought to represent
+constructions. The CH isomorphism is only a particularly poignant
+and beautiful realization of this idea. Martin-Lof [1980]
+developed it further into a more expressive calculus called
+intuitionistic type theory.
+
+https://www.cs.cmu.edu/~fp/courses/15317-s23/lectures/10-proglang.pdf
+
+Another aspect of the differences between intuitionistic logic and
+programming languages so far is the presence of recursion in programming
+languages. In logic, we usually study this mostly using the exemplar
+of natural numbers or they can be given a direct treatment in which
+case we are in the transition between logic and type theory.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
