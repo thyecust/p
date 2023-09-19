@@ -1,0 +1,134 @@
+ieee.txt
+
+https://www.ieee.org/membership-catalog/index.html?srchProdType=Societies&searchType=prodType
+
+AESS - Aerospace and Electronic Systems
+Organization, system enginnering, design, development, integration,
+and operation of complex systems for space, air, ocean, or ground
+environments.
+
+APS - Antennas and Propagation
+Antenna systems and electromagnetic ware propagation and scattering
+in complex media for wireless communication, sensing, medical and
+other applications.
+
+BTS - Broadcast Technology
+A broadcasting slant on: equipment, techniques and systems related
+to production, wired and wireless distribution, transmission,
+propagation and reception.
+
+CAS - Circuits and Systems
+Theoretical foundations, applications, architectures, as well as
+circuits and systems implementation of algorithms for signal &
+infomation processing.
+
+ComSoc - Communications
+Information transfer with signals: terminals, computers, systems
+and operations, transmission media networks, layout, protocol, and
+architecture.
+
+Computational intelligence
+Biological and linguistic computational paradigms: neural networks,
+evolutionary algorithms, fuzzy systems, and hybrid intelligent systems.
+
+Computer
+All major areas of computing and information technology: computer
+hardware, software, multimedia, IT, security, networking, mobile
+computing and more.
+
+CTSoc - Consumer Technology
+All aspects of the modeling design, construction, testing, and end-use
+of mass-market smart devices, systems, software, artificial intelligence,
+big data technology and services for advanced consumer products and
+services.
+
+Control System
+Design, automatic control, and optimization of dynamic systems, both
+physical and human-made: theoretic advances and applications in diverse
+technological areas of societal and economic importance.
+
+DEIS - Dielectrics and Electrical Insulation
+Materials, measurements, numerical modelling, components, applications
+and systems pertinent to dielectrics and electrical insulation.
+
+Education
+Theory and practice of education and educational technology and professional
+development programs within IEEE fields.
+
+EMC - Electromagnetic Compatibility
+EMC enhancement through engieering standards, measurement techniques/test
+procedures, instrumentation, equipment and systems characteristics.
+
+EDS - Electron Devices
+Engineering, physics, theory, experiment and simulation of electron and
+ion devices and their applications to engineering, medicine and sciences.
+
+Electronics Packaging
+Packaging and integration of electronic, optoelectronic, biological,
+micromechanical and sensing components, addressing signal and power delivery,
+material aspects, thermal and structural design and reliability.
+
+EMBS - Engineering in Medicine and Biology
+Engineering concepts and methods used with biology, medicine & health sciences
+to effect solutions to biological, medical & healthcare problems.
+
+GRSS - Geoscience and Remote Sensing
+Theory, concepts, and techniques of science and engineering as they apply to
+the remote sensing of the earth, oceans, atmosphere, and space, as well as the
+processing, interpretation and dissemination of this information.
+
+Industrial Electronics
+
+Industry Applications
+
+Information Theory
+
+Instrumentation and Measurement
+
+Intelligent Trasportation
+
+Magnetics
+
+Microware Theory and Technology
+
+Nuclear and Plasma Sciences
+
+Oceanic Engineering
+
+Photonics
+
+Power & Energy
+
+Power Electronics
+
+Product Safety Engineering
+
+Professional Communication
+
+Reliability
+
+Robotics and Automation
+
+Signal Processing
+
+Social Implications of Technology
+
+Solid-state Circuits
+Design, implementation, and application of solid-state integrated circuits;
+including computers, communications, signal processing, optoelectronics.
+
+Systems, Man, and Cypernetics
+Integration of the theories of communication, control, cybernetics, systems,
+and human-factors engineering.
+
+Techonology and Engineering Management
+
+Ultrasonics, Ferroelectrics, and Frequency Control
+
+Vehicular Technology
+Land, airbone, maritime mobile communications. Vehicular electro-techonology,
+automotive industry systems. Traction power, signals, control systems.
+
+
+
+ 
