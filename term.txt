@@ -24,7 +24,7 @@ hypothesis A we conclude ¬A.
 
 We write Γ ⊢ M : A to express the judgment M is a proof term for A
 under hypotheses Γ.
-Note: A is a formula (statement).
+Note: A is a formula (statement). See A1.
 
 Terms M ::= u               Hypotheses
   | <M1, M2>
@@ -40,3 +40,12 @@ Terms M ::= u               Hypotheses
   | <>                      Truth
   | abortA M                Falsehood
 
+A1
+https://math.libretexts.org/Bookshelves/Mathematical_Logic_and_Proof/Book%3A_Friendly_Introduction_to_Mathematical_Logic_(Leary_and_Kristiansen)/01%3A_Structures_and_Languages/1.04%3A_Terms_and_Formulas
+Definition 1.3.3. If  L is a first-order language, a formula of  L is a nonempty finite string  ϕ of symbols from  L such that either:
+
+ϕ:≡=t1t2, where  t1 and  t2 are terms of  L, or
+ϕ:≡Rt1t2…tn, where  R is an  n-ary relation symbol of  L and  t1,t2,…,tn are all terms of  L, or
+ϕ:≡(¬α), where  α is a formula of  L, or
+ϕ:≡(α∨β), where  α and  β are formulas of  L, or
+ϕ:≡(∀v)(α), where  v is a variable and  α is a formula of  L.
