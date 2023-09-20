@@ -22,6 +22,21 @@ an introduction rule, we employ a judgment that is parametric in
 a propositional parameter p: If we can derive any p from the
 hypothesis A we conclude ¬A.
 
+We write Γ ⊢ M : A to express the judgment M is a proof term for A
+under hypotheses Γ.
+Note: A is a formula (statement).
 
-
+Terms M ::= u               Hypotheses
+  | <M1, M2>
+  | fst M
+  | snd M                   Conjunction
+  | λu:A. M
+  | M1 M2                   Implication
+  | inlA M
+  | inrA M                  Disjunction
+  | ( case M of inl u1 ⇒ M1 | inr u2 ⇒ M2)
+  | µp u:A. M
+  | M1 ·A M2                Negation
+  | <>                      Truth
+  | abortA M                Falsehood
 
