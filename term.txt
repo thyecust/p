@@ -1,0 +1,27 @@
+term.txt
+
+https://en.wikipedia.org/wiki/Variable_(mathematics)
+
+In mathematical logic, a variable is either a symbol representing an
+un specified term of the theory (a meta-variable), or a basic object
+of the theory that is manipulated without referring to its possible
+intuitive interpretation.
+
+https://www.cs.cmu.edu/~fp/courses/atp/handouts/ch2-natded.pdf
+
+parameter: a parametric judgment has the form “J for any a” where a is
+a parameter which may occur in J.
+
+A language of (first-order) terms is built up from variables x, y,
+etc., function symbols f, g, etc., each with a unique arity, and parameters a, b, etc. in the usual way.
+
+Terms t ::= x | a | f(t1, . . . , tn)
+
+In order to give a self-contained explanation of negation by
+an introduction rule, we employ a judgment that is parametric in
+a propositional parameter p: If we can derive any p from the
+hypothesis A we conclude ¬A.
+
+
+
+
