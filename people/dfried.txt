@@ -1,0 +1,14 @@
+people/dfried.txt
+
+https://legacy.cs.indiana.edu/~dfried/
+
+books:
+The Little Learner 2023
+The Little Typer 2018
+The Little Prover 2015
+Essentials of Programming Lanugages 3e 2008
+The Resoned Schemer 2005
+The Little Java, A Few Patterns 1998
+The Little MLer 1998
+The Seasoned Schemer 1996
+The Little Schemer 4e 1996
