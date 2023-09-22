@@ -1,0 +1,62 @@
+fix.txt
+
+Benjamin C. Pierce, Types and Programmming Languages
+Chap 5 Untyped lambda calculus
+Chap 11 Simple Extensions
+
+fixed-point combinator (call-by-value Y-combinator):
+fix = λf. (λx. f (λy. x x y)) (λx. f (λy. x x y))
+call-by-name: λf. (λx. f (x x)) (λx. f (x x))
+
+define a recursive function f:
+g = λf. <body containing f>
+h = fix g
+
+E.g. f is a factorial function
+g =  λf. λn. if eq n 0 then 1 else (times n (f (prd n)))
+f = fix g
+f 3 = fix g 3
+      (λx. g (λy. x x y)) (λx. g (λy. x x y)) 3
+      h                   h                   3
+      g (λy. h h y) 3
+      g fct         3
+      λn. if eq n 0 then 1 else (times n (fct (prd n))) 3
+      if eq 3 0 then 1 else (times 3 (fct (prd 3)))
+      times 3 (fct (prd 3))
+      times 3 (fct 2)
+      times 3 (h h 2)
+      times 3 (g (λy. h h y) 2)
+      times 3 (g fct         2)
+In short:
+f 3 = g fct 3 = times 3 (g fct 2) = times 3 (times 2 (g fct 1))
+
+In simple extensions, we want a iseven function:
+g = λf:Nat→Bool. λn:Nat.
+      if eq n 0 then true
+      else if eq (prd n) 0 then false
+      else f (prd (prd n))
+g : (Nat→Bool) → Nat → Bool
+iseven = fix g.
+
+The intuition is that
+1. g is a generator for the iseven function,
+2. applyting fix to this generator returns its fixed point - a
+   function that gives the desired behavior for all inputs n.
+
+However, fix itself cannot be defined in the simply typed lambda-calculus.
+Indeed, no expression that can lead to non-terminating computations can
+be typed using only simple types.
+So we add fix as a primitive:
+  letrec x:T1 = t1 in t2
+  let x = fix (λx:T1. t1) t2
+
+The ability to form the fixed point of a function of type T→T for any T
+implies that that every type is inhabited by some term.
+divergeT = λ_:Unit. fix (λx:T.x)
+divergeT : Unit → T
+So term divergeT () inhabits type T.
+
+
+
+
+
