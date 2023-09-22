@@ -57,6 +57,24 @@ divergeT : Unit → T
 So term divergeT () inhabits type T.
 
 
+https://cs3110.github.io/textbook/chapters/ds/memoization.html
 
+Now consider to memorize fib:
+let memo_fix g =
+  let h = Hashtbl.create 16 in
+  let rec f x =
+    try Hashtbl.find h x
+    with Not_found ->
+      let y = g f x in
+      Hashtbl.add h x y;
+      y
+  in
+  f;;
+let fib_memo =
+  let g f n =
+    if n < 2 then 1 else f(n-1) + f(n-2)
+  in
+  memo_fix g;;
+print_int (fib_memo 4)
 
-
+Note that g f x is just like (g fct 2).
