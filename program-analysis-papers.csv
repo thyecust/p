@@ -1,0 +1,95 @@
+Author,Title,Proceeding,Year
+Thomas W. Reps,Incremental evaluation for attribute grammars with application to syntax-directed editors,POPL,1981
+Thomas W. Reps,Optimal-time incremental semantic analysis for syntax-directed editors,POPL,1982
+Thomas W. Reps,Interactive proof checking,POPL,1984
+Thomas W. Reps,Remote attribute updating for language-based editors,POPL,1986
+Thomas W. Reps,On the adequacy of program dependence graphs for representing programs,POPL,1988
+Thomas W. Reps,Interprocedural slicing using dependence graphs,PLDI,1988
+Thomas W. Reps,Integrating non-intering versions of programs,POPL,1988
+Thomas W. Reps,Dependence analysis for pointer variables,PLDI,1989
+Alex Aiken,Program transformation in the presence of errors,POPL,1990
+Alex Aiken,Static type inference in a dynamically typed language,POPL,1991
+Thomas W. Reps,A categorized bibliography on incremental computation,POPL,1993
+Alex Aiken,Soft typing with conditional types,POPL,1994
+Thomas W. Reps,An incremental algorithm for maintaining the dominator tree of a reducible flowgraph,POPL,1994
+Alex Aiken,Safe: a semantic technique for transforming programs in the presence of errors,TOPLAS,1995
+Thomas W. Reps,Precise interprocedural dataflow analysis via graph reachability,POPL,1995
+Alex Aiken,Better static memory management: improving region-based analysis of higher-order languages,PLDI,1995
+Thomas W. Reps,Solving shape-analysis problems in languages with destructive updating,POPL,1996
+Alex Aiken,Partial online cycle elimination in inclusion constraint graphs,PLDI,1998
+Alex Aiken,Memory management with explicit regions,PLDI,1998
+Alex Aiken,Barrier inference,POPL,1998
+Thomas W. Reps,Pointer analysis for programs with structures and casting,PLDI,1999
+Thomas W. Reps,Physical type checking for C,PASTE,1999
+Thomas W. Reps,Physical type checking for C,PASTE,1999
+Thomas W. Reps,Parametric shape analysis via 3-valued logic,POPL,1999
+Alex Aiken,A theory of type qualifiers,PLDI,1999
+Alex Aiken,Type systems for distributed data structures,POPL,2000
+Thomas W. Reps,Safety checking of machine code,PLDI,2000
+Alex Aiken,Projection merging: reducing redundancies in inclusion constraint graphs,POPL,2000
+Alex Aiken,Language support for regions,PLDI,2001
+Alex Aiken,Language support for regions,POPL,2001
+Alex Aiken,The first-order theory of subtyping constraints,POPL,2002
+Alex Aiken,Flow-sensitive type qualifiers,PLDI,2002
+Alex Aiken,Checking and inferring local non-aliasing,PLDI,2003
+Alex Aiken,Bug isolation via remote program sampling,PLDI,2003
+Alex Aiken,The set constraint/CFL reachability connection in practice,PLDI,2004
+Thomas W. Reps,Interprocedural slicing using dependence graphs,SIGPLAN Notices,2004
+Alex Aiken,Scalable statistical bug isolation,PLDI,2005
+Alex Aiken,Scalable error detection using boolean satisfiability,POPL,2005
+Thomas W. Reps,Abstraction refinement via inductive learning,CAV,2005
+Thomas W. Reps,A semantics for procedure local heaps and its abstractions,POPL,2005
+Thomas W. Reps,A framework for numeric analysis of array operations,POPL,2005
+Alex Aiken,Effective static race detection for Java,PLDI,2006
+Alex Aiken,Static error detection using semantic inconsistency inference,PLDI,2007
+Alex Aiken,Saturn: A scalable framework for error detection using Boolean satisfiability,TOPLAS,2007
+Alex Aiken,Regularly annotated set constraints,PLDI,2007
+Alex Aiken,Conditional must not aliasing for static race detection,POPL,2007
+Alex Aiken,"Sound, complete and scalable path-sensitive analysis",PLDI,2008
+Alex Aiken,Reasoning about the unknown in static analysis,PLDI,2010
+Alex Aiken,Reasoning about the unknown in static analysis,CACM,2010
+Alex Aiken,Precise reasoning for programs using containers,POPL,2011
+Alex Aiken,Precise and compact modular procedure summaries for heap manipulating programs,PLDI,2011
+Alex Aiken,Data representation synthesis,PLDI,2011
+Alex Aiken,Concurrent data representation synthesis,PLDI,2012
+Alex Aiken,Automated error diagnosis using abductive inference,PLDI,2012
+Alex Aiken,An introduction to data representation synthesis,CACM,2012
+Alex Aiken,Terra: a multi-stage language for high-performance computing,PLDI,2013
+Alex Aiken,Stochastic optimization of floating-point programs with tunable precision,PLDI,2014
+Thomas W. Reps,Specialization slicing,PLDI,2014
+Alex Aiken,First-class runtime generation of high-performance types using exotypes,PLDI,2014
+Alex Aiken,Bias-variance tradeoffs in program analysis,POPL,2014
+Alex Aiken,Verification of producer-consumer synchronization in GPU programs,PLDI,2015
+Thomas W. Reps,Synthesis of machine code from semantics,PLDI,2015
+Alex Aiken,Specification Inference Using Context-Free Language Reachability,POPL,2015
+Alex Aiken,Composing concurrency control,PLDI,2015
+Alex Aiken,Verifying bit-manipulations of floating-point,PLDI,2016
+Alex Aiken,Stratified synthesis: automatically learning the x86-64 instruction set,PLDI,2016
+Alex Aiken,Stochastic program optimization,PLDI,2016
+Thomas W. Reps,Newtonian program analysis via tensor product,POPL,2016
+Alex Aiken,Synthesizing program input grammars,PLDI,2017
+Alex Aiken,On automatically proving the correctness of math.h implementations,POPL,2017
+Thomas W. Reps,Non-linear reasoning for invariant synthesis,POPL,2017
+Thomas W. Reps,Newtonian Program Analysis via Tensor Product,TOPLAS,2017
+Thomas W. Reps,Compositional recurrence analysis revisited,PLDI,2017
+Thomas W. Reps,Component-based synthesis for complex APIs,POPL,2017
+Thomas W. Reps,PMAF: an algebraic framework for static analysis of probabilistic programs,PLDI,2018
+Alex Aiken,Active learning of points-to specifications,PLDI,2018
+Alex Aiken,Semantic program alignment for equivalence checking,PLDI,2019
+Thomas W. Reps,Refinement of path expressions for static analysis,POPL,2019
+Thomas W. Reps,Closed forms for numerical loops,POPL,2019
+Thomas W. Reps,Templates and recurrences: better together,PLDI,2020
+Alex Aiken,First-order quantified separators,PLDI,2020
+Thomas W. Reps,Fast graph simplification for interleaved Dyck-reachability,PLDI,2020
+Thomas W. Reps,Exact and approximate methods for proving unrealizability of syntax-guided synthesis problems,PLDI,2020
+Thomas W. Reps,Sound probabilistic inference via guide types,PLDI,2021
+Thomas W. Reps,Semantics-guided synthesis,POPL,2021
+Thomas W. Reps,On the complexity of bidirected interleaved Dyck-reachability,POPL,2021
+Thomas W. Reps,Central moment analysis for cost accumulators in probabilistic programs,PLDI,2021
+Alex Aiken,Adaptive restarts for stochastic synthesis,PLDI,2021
+Alex Aiken,Quartz: superoptimization of Quantum circuits,PLDI,2022
+Alex Aiken,Induction duality: primal-dual search for invariants,POPL,2022
+Thomas W. Reps,Fast Graph Simplification for Interleaved-Dyck Reachability,TOPLAS,2022
+Alex Aiken,DISTAL: the distributed tensor algebra compiler,PLDI,2022
+Thomas W. Reps,Unrealizability Logic,POPL,2023
+Thomas W. Reps,Single-Source-Single-Target Interleaved-Dyck Reachability via Integer Linear Programming,POPL,2023
