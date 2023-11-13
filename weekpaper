@@ -2,3 +2,10 @@ Share one paper every Monday
 
 - 2023-11-13 Precise and Compact Modular Procedure Summaries for Heap Manipulating Programs - PLDI 2011
 - 2023-11-20 Practical memory leak detection using guarded value-flow analysis - POPL 2007
+
+Todo Notes:
+
+Pinpoint paper says: This performance is aligned with the common industrial requirement of checking
+millions-of-LoC code in 5-10 hours with less than 30% false positives [5, 36].
+5: Coverity CACM.
+36: Scalable and incremental software bug detection. 2013 
